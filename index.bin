@@ -1,0 +1,6 @@
+0011 0100 0000 0000 ; Start program at 3400
+0101 011 111 1 00000 ; AND register 111 to value 00000 to clear destination register 011
+0001 011 001 000 010 ; Add Register 001 and 010 and replace 011
+0010 101 000000000 ; Load value from current position into register 100
+0011 110 000000000 ; Store value from current position into register 110
+1111 0000 00100101 ; Halt
